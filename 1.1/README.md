@@ -5,7 +5,7 @@ compare with the analytic formulas you find in preferred QFT book.
 
 ## Solution
 
-Running `script.txt` we obtain the following partial widths (available in `param_car`):
+Running `script.txt` we obtain the following partial widths (available in `param_card.dat`):
 - $\Gamma_Z$ = 2.441755 GeV
 - $\Gamma_W$ = 2.047910 GeV
 - $\Gamma_t$ = 1.491472e GeV
