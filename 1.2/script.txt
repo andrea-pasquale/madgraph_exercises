@@ -1,0 +1,1 @@
+compute_widths h --path=param_card.dat --output=results.dat
