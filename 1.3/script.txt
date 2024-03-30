@@ -1,0 +1,4 @@
+import model sm-full
+generate mu- > e- ve~ vm
+output _data_13
+launch _data_13

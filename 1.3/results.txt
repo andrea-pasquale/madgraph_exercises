@@ -1,0 +1,4 @@
+ === Results Summary for run: run_01 tag: tag_1 ===
+
+     Width :   3.009e-19 +- 4.336e-22 GeV
+     Nb of events :  10000
