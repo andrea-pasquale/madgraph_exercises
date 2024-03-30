@@ -8,6 +8,6 @@ $\sigma_\text{NLO}(e^+e^- \rightarrow q \bar{q}) = 0.5474 \pm 0.0018  \text{pb} 
 
 The $K$-factor is computed as:
 
-$K(e^+e^- \rightarrow q \bar{q})= \frac{\sigma_\text{NLO}(e^+e^- \rightarrow q \bar{q})}{\sigma_\text{LO}(e^+e^- \rightarrow q \bar{q})}$ = 1.0282 \pm 0.0036
+$K(e^+e^- \rightarrow q \bar{q})= \frac{\sigma_\text{NLO}(e^+e^- \rightarrow q \bar{q})}{\sigma_\text{LO}(e^+e^- \rightarrow q \bar{q})} = 1.0282 \pm 0.0036 \text{pb}$
 
 Error computed as sum in quadrature.
