@@ -1,0 +1,13 @@
+define q = d u s c
+define q~ = d~ u~ s~ c~
+generate e+ e- > q q~ [QCD]
+output _ex14
+launch _ex14 --name=LO
+order=LO
+fixed_order = ON
+shower=OFF
+
+launch _ex14 --name=NLO
+order=NLO
+fixed_order = ON
+shower=OFF
