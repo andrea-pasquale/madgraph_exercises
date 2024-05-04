@@ -1,0 +1,32 @@
+generate p p > t t~ [QCD]
+output _ex16
+launch _ex16 --name LO
+order = LO
+fixed_order = ON
+shower=OFF
+# edit FO_analyse_card.dat
+# FO_ANALYSE = analysis_HwU_pp_ttx_v2.o
+
+launch _ex16 --name LO+PS
+# modify options
+fixed_order = OFF
+shower=PYTHIA8
+# edit shower_card.dat
+# ANALYSE      = HwU.o py8an_HwU_pp_ttx_v2.o # User's analysis and histogramming
+
+launch _ex16 --name NLO
+# modify options
+order = NLO
+fixed_order = ON
+shower=OFF
+# edit FO_analyse_card.dat
+# FO_ANALYSE = analysis_HwU_pp_ttx_v2.o
+
+
+launch _ex16 --name NLO+PS
+# modify options
+order = NLO
+fixed_order = OFF
+shower=PYTHIA8
+# edit shower_card.dat
+# ANALYSE      = HwU.o py8an_HwU_pp_ttx_v2.o # User's analysis and histogramming
