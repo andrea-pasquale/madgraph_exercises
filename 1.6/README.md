@@ -6,4 +6,13 @@ Generate and output the folder for $pp \rightarrow t\bar{t}$.
 
 ## Solution
 
-LO = 456
+$\sigma_\text{LO}(pp \rightarrow t \bar{t}) = 456.9 \pm 1.9 \text{pb} $
+$\sigma_\text{LO+PS}(pp \rightarrow t \bar{t}) = 459.5 \pm 2.1  \text{pb} $
+
+$K_1= \frac{\sigma_\text{LO+PS}(pp \rightarrow t \bar{t})}{\sigma_\text{LO}(pp \rightarrow t \bar{t})}$ = 1.005
+
+$\sigma_\text{NLO}(pp \rightarrow t \bar{t}) = 681.9 \pm 3.6 \text{pb} $
+$\sigma_\text{NLO+PS}(pp \rightarrow t \bar{t}) = 680 \pm 4.4  \text{pb} $
+
+$K_2= \frac{\sigma_\text{NLO}(pp \rightarrow t \bar{t})}{\sigma_\text{LO}(pp \rightarrow t \bar{t})}$ = 1.49
+$K_3= \frac{\sigma_\text{NLO+PS}(pp \rightarrow t \bar{t})}{\sigma_\text{NLO}(pp \rightarrow t \bar{t})}$ = 1
