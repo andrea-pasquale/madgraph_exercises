@@ -1,0 +1,25 @@
+import model loop_sm
+generate p p > h QED<=1 [noborn=QCD]
+output _ex32
+launch _ex32
+
+
+generate p p > h b b~ [QCD]
+output _ex32_bbh
+launch _ex32_bbh --name LO
+order = LO
+fixed_order = ON
+
+launch _ex32_bbh --name NLO
+order = NLO
+fixed_order = ON
+
+import model HC_NLO_X0_UFO-heft
+generate p p > x0 / t QED<=1
+output _ex32_heft_ggh
+launch _ex32_heft_ggh
+
+
+generate p p > x0 j / t
+output _ex32_heft_gghj
+launch _ex32_heft_gghj
