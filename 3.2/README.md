@@ -18,5 +18,5 @@ $\sigma_\text{NLO}(pp \rightarrow H + b \bar{b}) = 0.6379 \pm 0.048  \text{pb} $
 #### `p p > x0 / t QED<=1` (`HC_NLO_X0_UFO-heft`)
 $\sigma = 16.54 \pm 0.01476  \text{pb} $
 
-#### `p p > x0 / j t` (`HC_NLO_X0_UFO-heft`)
+#### `p p > x0 j / t` (`HC_NLO_X0_UFO-heft`)
 $\sigma = 13.21 \pm 0.032  \text{pb} $
